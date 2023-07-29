@@ -105,11 +105,6 @@ volumeUpBtn.addEventListener('click', increaseVolume);
 // Event listener for the volume down button
 volumeDownBtn.addEventListener('click', decreaseVolume);
 
-// ... (rest of the existing JavaScript code)
-
-
-
-// ... (existing JavaScript code)
 
 const repeatBtn = document.getElementById('repeat-btn');
 let repeatMode = 'none'; // Possible values: 'none', 'all', 'one'
@@ -134,13 +129,6 @@ function toggleRepeat() {
 // Event listener for the repeat button
 repeatBtn.addEventListener('click', toggleRepeat);
 
-// ... (rest of the existing JavaScript code)
-
-
-
-
-// ... (existing JavaScript code)
-
 const setTimerBtn = document.getElementById('set-timer-btn');
 const sleepTimeInput = document.getElementById('sleep-time');
 let sleepTimer;
@@ -160,8 +148,6 @@ function setSleepTimer() {
 
 // Event listener for the set timer button
 setTimerBtn.addEventListener('click', setSleepTimer);
-
-// ... (rest of the existing JavaScript code)
 
 
 
