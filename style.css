@@ -1,0 +1,209 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    background-image: url('images/back_image.avif');
+    background-size: cover;
+    background-position: center;
+
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #e9e6e6;
+    text-align: center;
+}
+
+.song-list img {
+    width: 50px; /* Adjust the size as needed */
+    height: 50px;
+    object-fit: cover; /* Maintain aspect ratio */
+    border-radius: 50%; /* Make the image circular */
+    text-align:center;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.song-list li {
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    color: #ccc;
+    text-align: center;
+  }
+  
+
+button:active {
+    background-color: #1c6ea4;
+}
+
+.sleep-timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    font-size: 16px;
+    color: #e8e2e2;
+    margin-right: 10px;
+}
+
+input {
+    width: 60px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+#set-timer-btn {
+    font-size: 16px;
+    margin-left: 10px;
+    background-color: #27ae60;
+}
+
+#set-timer-btn:hover {
+    background-color: #219653;
+}
+
+#set-timer-btn:active {
+    background-color: #1e8449;
+}
+
+/* Audio player styling */
+audio {
+    width: 100%;
+    outline: none;
+}
+
+/* Styling the buttons */
+#play-pause-btn,
+#backward-btn,
+#forward-btn,
+#repeat-btn {
+    font-size: 14px;
+    padding: 12px 5px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+#play-pause-btn {
+    background-color: #e74c3c;
+}
+
+#play-pause-btn:hover {
+    background-color: #c0392b;
+}
+
+#play-pause-btn:active {
+    background-color: #a93226;
+}
+
+#repeat-btn {
+    background-color: #f39c12;
+}
+
+#repeat-btn:hover {
+    background-color: #d68910;
+}
+
+#repeat-btn:active {
+    background-color: #b9770e;
+}
+
+#repeat-btn[data-repeat="true"] {
+    background-color: #2ecc71;
+}
+
+#repeat-btn[data-repeat="true"]:hover {
+    background-color: #27ae60;
+}
+
+#repeat-btn[data-repeat="true"]:active {
+    background-color: #219653;
+}
+
+/* Add styles for the login and sign-up buttons */
+.login-btn,
+.signup-btn {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+}
+
+.login-btn:hover,
+.signup-btn:hover {
+  background-color: #2980b9;
+}
+
+.login-btn:active,
+.signup-btn:active {
+  background-color: #1c6ea4;
+}
+
+
+#volume-down-btn,
+#volume-up-btn {
+    font-size: 12px; /* Adjust the font size to make the text smaller */
+    padding: 5px 10px; /* Adjust the padding to control the size of the button */
+    margin: 0 3px; /* Add some space between the buttons */
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+}
+
+#volume-down-btn:hover,
+#volume-up-btn:hover {
+    background-color: #2980b9;
+}
+
+#volume-down-btn:active,
+#volume-up-btn:active {
+    background-color: #1c6ea4;
+}
+
+

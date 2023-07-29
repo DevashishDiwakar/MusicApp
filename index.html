@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="background-animation.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Harmony_Hub</h1>
+        <audio id="audio-player">
+            <source src="/music/Taylor-Swift-Love-Story.mp3" type="audio/mpeg">
+            <source src="music/Taylor-Swift-Red.mp3" type="audio/mpeg">
+            <source src="music/Taylor-Swift-Wildest-Dreams.mp3" type="audio/mpeg">
+            <source src="music/Tu Hai To Mujhe Phir Aur Kya Chahiye_320(PagalWorld.com.se).mp3" type="audio/mpeg">
+            <!-- Add more song sources here as needed -->
+        </audio>
+        <div class="controls">
+            <button id="backward-btn">&lt;&lt;</button>
+            <button id="play-pause-btn">Play</button>
+            <button id="forward-btn">&gt;&gt;</button>
+            <button id="repeat-btn">Repeat: Off</button>
+            <button id="volume-down-btn">Volume Down</button>
+            <button id="volume-up-btn">Volume Up</button>
+        </div>
+        <div class="sleep-timer">
+            <label for="sleep-time">Sleep Timer (seconds):</label>
+            <input type="number" id="sleep-time" min="0" step="1" value="0">
+            <button id="set-timer-btn">Set Timer</button>
+        </div>
+
+        <!-- List of Songs with Images (Centered) -->
+        <div class="song-list" style="text-align: center;">
+            <h2>Song List</h2>
+            <ul>
+                <li data-src="./music/Taylor-Swift-Love-Story.mp3">
+                    <img src="images/lover_image.jpg" alt="Love Story">
+                    Taylor Swift - Love Story
+                </li>
+                <li data-src="./music/Taylor-Swift-Red.mp3">
+                    <img src="./images/taylor_swift_love_story.jpg" alt="Red">
+                    Another Artist - Song Title
+                </li>
+                <li data-src="./music/Taylor-Swift-Wildest-Dreams.mp3">
+                    <img src="./images/Taylor_Swift_Red.png" alt="Wildest Dreams">
+                    Your Third Song - Artist Name
+                </li>
+                <li data-src="music/Tu Hai To Mujhe Phir Aur Kya Chahiye_320(PagalWorld.com.se).mp3">
+                    <img src="images/download.jpeg" alt="Wildest Dreams">
+                    Tu Hai To Mujhe Phir Aur Kya Chahiye - Arijit sing
+                </li>
+                <!-- Add more songs here as needed -->
+            </ul>
+        </div>
+    </div>
+    <div class="controls">
+        <a href="login.html" class="login-btn">Login</a>
+        <a href="signup.html" class="signup-btn">Sign Up</a>
+
+    </div>
+
+
+
+
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+

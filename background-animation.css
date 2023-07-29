@@ -1,0 +1,15 @@
+
+@keyframes animatedBackground {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 100% 100%;
+    }
+  }
+  
+  /* Apply the animation to the container */
+  .container {
+    animation: animatedBackground 20s infinite; /* Adjust the duration as needed */
+  }
+  
